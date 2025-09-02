@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilos.css"?>
+
+<!-- Archivo: horario.xml -->
+<HORARIO>
+    <INFORMACION-ESTUDIANTE>
+        <NOMBRE-ESTUDIANTE>nombre</NOMBRE-ESTUDIANTE>
+        <MATRICULA>matricula</MATRICULA>
+        <CARRERA>carrera</CARRERA>
+        <SEMESTRE>semestre:</SEMESTRE>
+    </INFORMACION-ESTUDIANTE>
+
+    <SEMANA>
+        <DIA>
+            <NOMBRE-DIA>Lunes</NOMBRE-DIA>
+            <ASIGNATURA modalidad="presencial">
+                <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
+                <CLAVE>clave</CLAVE>
+                <PROFESOR>Profesor</PROFESOR>
+                <EDIFICIO>CUC</EDIFICIO>
+                <AULA>E201</AULA>
+            </ASIGNATURA>
+            
+            <ASIGNATURA modalidad="presencial">
+                <HORARIO-ASIGNATURA>10:00-11:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Programacion</NOMBRE-ASIGNATURA>
+                <CLAVE>clave</CLAVE>
+                <PROFESOR>Roberto</PROFESOR>
+                <EDIFICIO>CUC</EDIFICIO>
+                <AULA>E101</AULA>
+            </ASIGNATURA>
+        </DIA>
+        
+        <DIA>
+            <NOMBRE-DIA>Miercoles</NOMBRE-DIA>
+            <ASIGNATURA modalidad="presencial">
+                <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
+                <CLAVE>clave</CLAVE>
+                <PROFESOR>Sandra</PROFESOR>
+                <EDIFICIO>CUC</EDIFICIO>
+                <AULA>E201</AULA>
+            </ASIGNATURA>
+            <ASIGNATURA modalidad="presencial">
+                <HORARIO-ASIGNATURA>10:00-11:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Programacion</NOMBRE-ASIGNATURA>
+                <CLAVE>clave</CLAVE>
+                <PROFESOR>Roberto</PROFESOR>
+                <EDIFICIO>CUC</EDIFICIO>
+                <AULA>E101</AULA>
+            </ASIGNATURA>
+        </DIA>
+
+        <DIA>
+            <NOMBRE-DIA>Viernes</NOMBRE-DIA>
+            <ASIGNATURA modalidad="presencial">
+                <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
+                <CLAVE>clave</CLAVE>
+                <PROFESOR>Sandra</PROFESOR>
+                <EDIFICIO>CUC</EDIFICIO>
+                <AULA>E201</AULA>
+            </ASIGNATURA>
+            <ASIGNATURA modalidad="presencial">
+                <HORARIO-ASIGNATURA>10:00-11:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Programacion</NOMBRE-ASIGNATURA>
+                <CLAVE>clave</CLAVE>
+                <PROFESOR>Roberto</PROFESOR>
+                <EDIFICIO>CUC</EDIFICIO>
+                <AULA>E101</AULA>
+            </ASIGNATURA>
+        </DIA>
+    </SEMANA>
+</HORARIO>

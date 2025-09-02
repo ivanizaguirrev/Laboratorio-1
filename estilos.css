@@ -1,0 +1,127 @@
+HORARIO {
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 0 autO;
+  padding: 5px;
+  background-color: beige;
+  border-radius: 8px;
+}
+
+INFORMACION-ESTUDIANTE {
+  display: block;
+  color: #666;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+NOMBRE-ESTUDIANTE {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+  margin: 10px 0;
+}
+
+MATRICULA {
+  display: block;
+  font-size: 15px;
+  color: red;
+  margin: 10px 0;
+}
+
+CARRERA {
+  display: block;
+  font-style: italic;
+  color: red;
+  margin: 10px 0;
+}
+
+SEMESTRE {
+  display: block;
+  font-weight: bold;
+  color: red;
+  margin: 10px 0;
+}
+
+NOMBRE-ASIGNATURA {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+ASIGNATURA {
+  display: block;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+HORARIO-ASIGNATURA {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin: 5px 0;
+}
+
+NOMBRE-ASIGNATURA {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+  color: #555;
+  margin: 5px 0;
+}
+
+CLAVE {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+PROFESOR {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;  
+}
+
+EDIFICIO {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+AULA {
+  display: block;
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+SEMANA {
+  display: block;
+  margin-bottom: 20px;
+  margin: 10px 0;
+}
+
+DIA {
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+NOMBRE-DIA {
+  display: block;
+  border-bottom: 2px dashed #FFC107;
+}
