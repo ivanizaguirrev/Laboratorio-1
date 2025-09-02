@@ -14,9 +14,11 @@
         <DIA>
             <NOMBRE-DIA>Lunes</NOMBRE-DIA>
             <ASIGNATURA modalidad="presencial">
+                <!--Podemos cambiar HORARIO-ASIGNATURA a HORA para diferenciar con la principal -->
                 <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
                 <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
                 <CLAVE>clave</CLAVE>
+                <!-- Como el ejemplo de la imagen podemos poner dentro NOMBRE-PROFESOR-->
                 <PROFESOR>Profesor</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E201</AULA>
@@ -72,4 +74,5 @@
             </ASIGNATURA>
         </DIA>
     </SEMANA>
+
 </HORARIO>
