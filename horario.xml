@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="estilos.css"?>
+<?xml-stylesheet type="text/css" href="Horario.css"?>
 
 <!-- Archivo: horario.xml -->
 <HORARIO>
     <INFORMACION-ESTUDIANTE>
-        <NOMBRE-ESTUDIANTE>nombre</NOMBRE-ESTUDIANTE>
-        <MATRICULA>matricula</MATRICULA>
-        <CARRERA>carrera</CARRERA>
-        <SEMESTRE>semestre:</SEMESTRE>
+        <NOMBRE-ESTUDIANTE>Emilio Peralta</NOMBRE-ESTUDIANTE>
+        <MATRICULA>1234567890</MATRICULA>
+        <CARRERA>Ing. Computacion y sistemas</CARRERA>
+        <SEMESTRE>Semestre: 7°</SEMESTRE>
     </INFORMACION-ESTUDIANTE>
 
     <SEMANA>
         <DIA>
             <NOMBRE-DIA>Lunes</NOMBRE-DIA>
-            <ASIGNATURA modalidad="presencial">
+            <ASIGNATURA modalidad="presencial" optativa="false">
                 <!--Podemos cambiar HORARIO-ASIGNATURA a HORA para diferenciar con la principal -->
-                <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
+                <HORARIO-ASIGNATURA>07:00 - 08:30</HORARIO-ASIGNATURA>
                 <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
-                <CLAVE>clave</CLAVE>
+                <CLAVE>R01-2025</CLAVE>
                 <!-- Como el ejemplo de la imagen podemos poner dentro NOMBRE-PROFESOR-->
-                <PROFESOR>Profesor</PROFESOR>
+                <PROFESOR>Sandra</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E201</AULA>
             </ASIGNATURA>
             
-            <ASIGNATURA modalidad="presencial">
-                <HORARIO-ASIGNATURA>10:00-11:30</HORARIO-ASIGNATURA>
-                <NOMBRE-ASIGNATURA>Programacion</NOMBRE-ASIGNATURA>
-                <CLAVE>clave</CLAVE>
-                <PROFESOR>Roberto</PROFESOR>
+            <ASIGNATURA modalidad="presencial" optativa="false">
+                <HORARIO-ASIGNATURA>10:00 - 11:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Programacion Avanzada</NOMBRE-ASIGNATURA>
+                <CLAVE>PA01-2025</CLAVE>
+                <PROFESOR>Beatriz</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E101</AULA>
             </ASIGNATURA>
@@ -36,19 +36,19 @@
         
         <DIA>
             <NOMBRE-DIA>Miercoles</NOMBRE-DIA>
-            <ASIGNATURA modalidad="presencial">
-                <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
-                <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
-                <CLAVE>clave</CLAVE>
-                <PROFESOR>Sandra</PROFESOR>
+            <ASIGNATURA modalidad="presencial" optativa="false">
+                <HORARIO-ASIGNATURA>07:00 - 08:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Base de Datos</NOMBRE-ASIGNATURA>
+                <CLAVE>BD01-2025</CLAVE>
+                <PROFESOR>Lorna</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E201</AULA>
             </ASIGNATURA>
-            <ASIGNATURA modalidad="presencial">
-                <HORARIO-ASIGNATURA>10:00-11:30</HORARIO-ASIGNATURA>
-                <NOMBRE-ASIGNATURA>Programacion</NOMBRE-ASIGNATURA>
-                <CLAVE>clave</CLAVE>
-                <PROFESOR>Roberto</PROFESOR>
+            <ASIGNATURA modalidad="presencial" optativa="false">
+                <HORARIO-ASIGNATURA>10:00 - 11:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Calculo Integral</NOMBRE-ASIGNATURA>
+                <CLAVE>CI01-2025</CLAVE>
+                <PROFESOR>Ana Faraco</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E101</AULA>
             </ASIGNATURA>
@@ -56,19 +56,19 @@
 
         <DIA>
             <NOMBRE-DIA>Viernes</NOMBRE-DIA>
-            <ASIGNATURA modalidad="presencial">
-                <HORARIO-ASIGNATURA>07:00-08:30</HORARIO-ASIGNATURA>
-                <NOMBRE-ASIGNATURA>Redes</NOMBRE-ASIGNATURA>
-                <CLAVE>clave</CLAVE>
-                <PROFESOR>Sandra</PROFESOR>
+            <ASIGNATURA modalidad="presencial" optativa="true">
+                <HORARIO-ASIGNATURA>07:00 - 08:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Dispositivos Moviles</NOMBRE-ASIGNATURA>
+                <CLAVE>DM01-2025</CLAVE>
+                <PROFESOR>Robert</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E201</AULA>
             </ASIGNATURA>
-            <ASIGNATURA modalidad="presencial">
-                <HORARIO-ASIGNATURA>10:00-11:30</HORARIO-ASIGNATURA>
-                <NOMBRE-ASIGNATURA>Programacion</NOMBRE-ASIGNATURA>
-                <CLAVE>clave</CLAVE>
-                <PROFESOR>Roberto</PROFESOR>
+            <ASIGNATURA modalidad="presencial" optativa="false">
+                <HORARIO-ASIGNATURA>10:00 - 11:30</HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA>Inteligencia Artificial</NOMBRE-ASIGNATURA>
+                <CLAVE>IA01-2025</CLAVE>
+                <PROFESOR>Vittorio</PROFESOR>
                 <EDIFICIO>CUC</EDIFICIO>
                 <AULA>E101</AULA>
             </ASIGNATURA>
