@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="Horario.css"?>
+
+<!-- Archivo: horario.xml -->
+<HORARIO>
+
+    <INFORMACION-ESTUDIANTE>
+        <NOMBRE-ESTUDIANTE></NOMBRE-ESTUDIANTE>
+        <MATRICULA></MATRICULA>
+        <CARRERA></CARRERA>
+        <SEMESTRE></SEMESTRE>
+    </INFORMACION-ESTUDIANTE>
+
+    <SEMANA>
+
+        <DIA>
+            
+            <NOMBRE-DIA></NOMBRE-DIA>
+            <ASIGNATURA modalidad="" optativa="">
+                <HORARIO-ASIGNATURA></HORARIO-ASIGNATURA>
+                <NOMBRE-ASIGNATURA></NOMBRE-ASIGNATURA>
+                <CLAVE></CLAVE>
+                <PROFESOR></PROFESOR>
+                <EDIFICIO></EDIFICIO>
+                <AULA></AULA>
+            </ASIGNATURA>
+
+        </DIA>
+
+    </SEMANA>
+
+</HORARIO>
